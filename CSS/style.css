@@ -33,4 +33,22 @@
 }
 body{
     font-family: 'open_sansregular';
+   
+}
+/* Header */
+
+
+/* Section 1*/
+#section_one img{
+    height: 860px;
+}
+
+
+#section_one{
+    background-image: url(/Images/Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -41px;
+    height: 950px;
+    
 }
