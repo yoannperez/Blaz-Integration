@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+body {
+    font-family: 'Open Sans','Courier New', Courier, monospace;
+}
+/*##################################*/
+/*############# COLORS #############*/
+/*##################################*/
+h1 {
+    color: #ffffff;
+ }
+
+//Background height
+.gridHeight {
+  height: 200px;
+  color:white;
+}
+
+
+
+
+/*##################################*/
+/*############# GRILLE #############*/
+/*##################################*/
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1230px;
+  }
+}
+
+
+#section_one {
+  background-image: url(/Images/Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  /* height: 950px; */
+}

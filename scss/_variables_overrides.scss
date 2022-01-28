@@ -1,0 +1,49 @@
+// $primary: #f607f2;
+
+$rose : #f5979c;
+$purple: #615e7d;
+$purpleLight: #bc8cbe;
+$green: #81c99c;
+
+$enable-shadows: true;
+
+.bg-design {
+    background-color: $rose;
+}
+
+.bg-purple{
+    background-color: $purple
+}
+
+.bg-clients{
+    background-image: URL("/Images/photografer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-sign{
+    background-image: URL("/Images/moutain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-start{
+    background-image: URL("/Images/pelo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-purpleLight{
+    background-color: $purpleLight;
+}
+
+.bg-green{
+    background-color: $green;
+}
+
+.bg-footer{
+    background-color: #192331;
+}
+
