@@ -11198,6 +11198,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*##################################*/
+/*############ QUERIES #############*/
+/*##################################*/
 body {
   font-family: "Inter", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -11235,8 +11238,36 @@ h1, .h1 {
 #section_one {
   background-image: url("/Images/Image.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   /* height: 950px; */
+}
+@media screen and (min-width: 576px) {
+  #section_one {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #section_one {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .iphone {
+    top: 200px;
+    right: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .iphone {
+    top: 200px;
+    right: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

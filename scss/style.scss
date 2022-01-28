@@ -1,44 +1,56 @@
-@import "variables_overrides.scss"; 
+@import "variables_overrides.scss";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;700&display=swap");
 
+/*##################################*/
+/*############ QUERIES #############*/
+/*##################################*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;700&display=swap');
+$breakpoints: (
+  mobile: 576px,
+  tablets: 992px,
+  computer: 1200px,
+);
 
-
-
-
+@mixin tablets-only {
+  @media screen and (min-width: map-get($breakpoints, mobile)) {
+    @content;
+  }
+}
+@mixin computers {
+  @media screen and (min-width: map-get($breakpoints, computer)) {
+    @content;
+  }
+}
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    a {
-        text-decoration: none;
-        font-style: normal;
-        font-weight: bold;
-    }
-    
-    p {
-        font-size: 0.9em;
-    }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
 }
 /*##################################*/
 /*############# COLORS #############*/
 /*##################################*/
 h1 {
-    color: #ffffff;
- }
+  color: #ffffff;
+}
 
 //Background height
 .gridHeight {
   height: 200px;
-  color:white;
+  color: white;
 }
-
-
-
 
 /*##################################*/
 /*############# GRILLE #############*/
@@ -50,11 +62,36 @@ h1 {
   }
 }
 
-
 #section_one {
   background-image: url("/Images/Image.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
- 
+  @include tablets-only {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  // ==> Medias queries _queries
+  @include computers {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
   /* height: 950px; */
+}
+
+.iphone {
+  
+  // width: 100px;
+  @include tablets-only {
+    top: 200px;
+    right: 100px;
+  }
+  // ==> Medias queries _queries
+  @include computers {
+    top: 200px;
+    right: 100px;
+  }
 }
