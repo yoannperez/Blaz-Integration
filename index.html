@@ -30,7 +30,7 @@
       <!-- Section 1 : Hero-->
 
       <section>
-        <div class="section_one">
+        <div class="section_one relative">
           <div class="container h-100">
             <div class="row">
               <div class="col-md-2 mt-4 mb-2 mb-md-0">
@@ -46,9 +46,9 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-2">
-                <img class="position-relative iphone" src="/Images/iPhone.png" alt="iphone" />
-              </div> -->
+            </div>
+            <div class="">
+              <img class="iphone" src="/Images/iPhone.png" alt="iphone" />
             </div>
           </div>
         </div>
@@ -57,20 +57,19 @@
       <!-- Section 2 : Description-->
       <section id="description">
         <div class="container mt-5">
-          <h2 class="mt-5">Start something new</h2>
+          <h2 class="mt-5 p-2">Start something new</h2>
           <div class="">
-            <div class="row">
-              <p class="col-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row p-2">
+              <p class="col-12 col-lg-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <!-- <img class="position-relative top-100 end-0" src="/Images/iPhone.png" alt="iphone" /> -->
           </div>
         </div>
-        <div class="container d-flex flex-column flex-md-row">
-          <div class="col-md-8 col-sm-12 col-lg-6 d-flex flex-column">
+        <div class="container d-flex flex-column flex-lg-row">
+          <div class="col-lg-8 col-sm-12 col-lg-6 d-flex flex-column p-2">
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
             <p>eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
           </div>
-          <div class="absolute col-lg-6 d-flex flex-column justify-content-start">
+          <div class="absolute col-lg-6 d-flex flex-column justify-content-start p-2">
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
           </div>
@@ -78,44 +77,46 @@
       </section>
       <!-- Section 3 : Grille -->
       <section id="featuredContent">
-        <div class="container-fluid my-5" style="position: relative">
-          <div class="d-flex flex-column flex-lg-row">
-            <div class="d-flex flex-column text-white col-lg-3 bg-design p-5 justify-content-between">
-              <h2 class="pb-2">Design quality</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-              <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
+        <div class="container-fluid my-5 overflow-hidden " style="position: relative">
+          <div class="grille">
+            <div class="d-flex flex-column  flex-lg-row">
+              <div class="d-flex flex-column text-white col-lg-3 bg-design p-5 justify-content-between">
+                <h2 class="pb-2">Design quality</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+                <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
+              <div class="d-flex flex-column text-white col-lg-3 bg-purple p-5 justify-content-between">
+                <h2 class="pb-2">Built to last</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+                <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
+              <div class="d-flex flex-column text-white col-lg-3 bg-clients p-5 justify-content-between">
+                <h2 class="pb-2">Our clients</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                <a class="link-light pb-4" href="#">Get insights<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
+              <div class="d-flex flex-column text-white col-lg-3 bg-purpleLight p-5 justify-content-between">
+                <h2 class="pb-2">How to shoot</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+                <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
             </div>
-            <div class="d-flex flex-column text-white col-lg-3 bg-purple p-5 justify-content-between">
-              <h2 class="pb-2">Built to last</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-              <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
-            </div>
-            <div class="d-flex flex-column text-white col-lg-3 bg-clients p-5 justify-content-between">
-              <h2 class="pb-2">Our clients</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <a class="link-light pb-4" href="#">Get insights<i class="fas fa-arrow-right ms-4"></i></a>
-            </div>
-            <div class="d-flex flex-column text-white col-lg-3 bg-purpleLight p-5 justify-content-between">
-              <h2 class="pb-2">How to shoot</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-              <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
-            </div>
-          </div>
-          <div class="d-flex flex-column flex-lg-row">
-            <div class="d-flex flex-column text-white col-lg-6 bg-sign p-5 justify-content-between">
-              <h2 class="pb-2">Sign up & see why</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-              <a class="link-light pb-4" href="#">Get Started Now<i class="fas fa-arrow-right ms-4"></i></a>
-            </div>
-            <div class="d-flex flex-column text-white col-lg-3 bg-green p-5 justify-content-between">
-              <h2 class="pb-2">Perfect pictures</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-              <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
-            </div>
-            <div class="d-flex flex-column text-white col-lg-3 bg-start p-5 justify-content-between">
-              <h2 class="pb-2">Start something new</h2>
-              <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-              <a class="link-light pb-4" href="#">Get Started Now<i class="fas fa-arrow-right ms-4"></i></a>
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="d-flex flex-column text-white col-lg-6 bg-sign p-5 justify-content-between">
+                <h2 class="pb-2">Sign up & see why</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+                <a class="link-light pb-4" href="#">Get Started Now<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
+              <div class="d-flex flex-column text-white col-lg-3 bg-green p-5 justify-content-between">
+                <h2 class="pb-2">Perfect pictures</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+                <a class="link-light pb-4" href="#">Find Out more<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
+              <div class="d-flex flex-column text-white col-lg-3 bg-start p-5 justify-content-between">
+                <h2 class="pb-2">Start something new</h2>
+                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+                <a class="link-light pb-4" href="#">Get Started Now<i class="fas fa-arrow-right ms-4"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -126,22 +127,22 @@
         <div class="container my-5">
           <h2 class="my-5 fs-1">A look at details</h2>
           <div class="row">
-            <div class="col-md-3">
-              <h3 class="mb-4 fs-6 ">Web based</h3>
+            <div class="col-md-6 col-lg-3">
+              <h3 class="mb-4 fs-6">Web based</h3>
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <h3 class="mb-4 fs-6">Performance</h3>
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <h3 class="mb-4 fs-6">Cultural</h3>
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <h3 class="mb-4 fs-6">Sustainability</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
@@ -173,16 +174,16 @@
         <div class="bg-green d-flex flex-column justify-content-center" style="min-height: 500px">
           <div class="container bg-green text-white my-5">
             <h2>Reasons to get onboard</h2>
-            <div class="mt-5 d-flex flex-column flex-md-row gap-5">
-              <div class="col-md-4">
+            <div class="mt-5 d-flex flex-column flex-lg-row gap-5">
+              <div class="col-lg-4">
                 <h3 class="fs-6" style="font-weight: bold">Web based</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <h3 class="fs-6" style="font-weight: bold">Team login</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <h3 class="fs-6" style="font-weight: bold">Great Support</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
@@ -194,24 +195,24 @@
       <!-- Section 7 : Buy it! -->
       <section id="prices_ranges">
         <div class="container d-flex flex-column flex-md-row gap-5 my-8">
-          <div class="card flex-grow-1 m-1 m-md-5  border-0">
+          <div class="card flex-grow-1 m-1 m-md-0 m-lg-5 border-0">
             <div class="card-body hoverElement p-5">
-              <button class="btn btn-secondary  btn-sm mb-2" disabled>LEGACY</button>
+              <button class="btn btn-secondary btn-sm mb-2" disabled>LEGACY</button>
               <h2 class="my-3">Go it solo</h2>
-              <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-              <button class="btn btn-success text-white  my-3">BUY IT NOW $9</button>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+              <button class="btn btn-success text-white my-3">BUY IT NOW $9</button>
               <div class="fs-2 text-grey">
                 <i class="fab fa-apple"></i>
                 <i class="fab fa-windows"></i>
               </div>
             </div>
           </div>
-          <div class="card flex-grow-1 m-1 m-md-5 border-0 ">
+          <div class="card flex-grow-1 m-1 m-md-0 m-lg-5 border-0">
             <div class="card-body hoverElement p-5">
               <button class="btn btn-warning text-white btn-sm mb-2" enable>MOST POPULAR</button>
               <h2 class="my-3">Team Plan</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-              <button class="btn btn-success text-white  my-3">BUY IT NOW $18</button>
+              <button class="btn btn-success text-white my-3">BUY IT NOW $18</button>
               <div class="fs-2 text-grey">
                 <i class="fab fa-apple"></i>
                 <i class="fab fa-windows"></i>
@@ -223,16 +224,16 @@
 
       <!-- Footer -->
       <footer>
-        <div class="bg-footer text-white d-flex flex-column justify-content-center " style="min-height: 600px">
+        <div class="bg-footer text-white d-flex flex-column justify-content-center" style="min-height: 600px">
           <div class="container d-flex flex-column p-5">
-            <div class="d-flex flex-column flex-md-row justify-content-between p-0 ">
-              <div class="col-md-6 p-1 gap-3">
+            <div class="d-flex flex-column flex-lg-row justify-content-between p-0">
+              <div class="col-lg-6 p-1 gap-3">
                 <h3 class="fs-6" style="font-weight: 600">Get in touch</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                   <div>
                     <h3 class="fs-6 my-4" style="font-weight: 600">Ressources</h3>
-                    <ul class="list-unstyled me-5">
+                    <ul class="list-unstyled">
                       <li>Tour</li>
                       <li>Customers</li>
                       <li>Pricing and Plans</li>
@@ -262,12 +263,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6  ps-md-5">
+              <div class="col-lg-6 ps-lg-5 mt-5 mt-lg-0">
                 <h3 class="fs-6" style="font-weight: 600">Stay in touch</h3>
-                <div class="d-flex lh-lg m-0" >
-                  <input class="m-0 w-10 border-0" style="width: 400px;" type="text" />
+                <div class="d-flex lh-lg m-0">
+                  <input class="m-0 w-10 border-0" style="width: 400px" type="text" />
                   <i class="fas fa-check fs-3 px-3 bg-green lh-lg rounded-end"></i>
-
                 </div>
                 <p class="my-2 text-secondary">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox.</p>
               </div>
