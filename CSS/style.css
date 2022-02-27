@@ -12619,23 +12619,35 @@ h1, .h1 {
 
 .iphone {
   position: absolute;
-  left: -105px;
-  bottom: -70px;
+  right: 10px;
+  bottom: -130px;
   width: 300px;
 }
 @media screen and (min-width: 768px) {
   .iphone {
-    left: -140px;
-    bottom: -100px;
+    right: 30px;
+    bottom: -160px;
     width: 500px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .iphone {
+    right: 50px;
+    bottom: -160px;
   }
 }
 @media screen and (min-width: 1200px) {
   .iphone {
-    position: relative;
-    left: 600px;
-    bottom: 30px;
-    width: 700px;
+    right: 50px;
+    bottom: -180px;
+    width: 600px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .iphone {
+    right: 80px;
+    bottom: -180px;
+    width: 600px;
   }
 }
 
