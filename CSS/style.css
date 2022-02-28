@@ -12502,7 +12502,7 @@ textarea.form-control-lg {
 /*######### BACKGROUND IMAGES ######*/
 /*##################################*/
 .section_one {
-  background-image: url("/Images/Image.png");
+  background-image: url("../Images/Image.png");
   background-size: cover;
   height: 100vh;
   background-position: center;
@@ -12532,21 +12532,21 @@ textarea.form-control-lg {
 }
 
 .bg-clients {
-  background-image: URL("/Images/photografer.png");
+  background-image: URL("../Images/photografer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-sign {
-  background-image: URL("/Images/moutain.png");
+  background-image: URL("../Images/moutain.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-start {
-  background-image: URL("/Images/pelo.png");
+  background-image: URL("../Images/pelo.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
