@@ -1,69 +1,17 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;700&display=swap");
-.bg-design {
-  background-color: #f5979c;
-}
-
-.bg-purple {
-  background-color: #615e7d;
-}
-
-.bg-clients {
-  background-image: URL("/Images/photografer.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.bg-sign {
-  background-image: URL("/Images/moutain.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.bg-start {
-  background-image: URL("/Images/pelo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.bg-purpleLight {
-  background-color: #bc8cbe;
-}
-
-.bg-green {
-  background-color: #81c99c;
-}
-
-.bg-footer {
-  background-color: #192331;
-}
-
-.hoverElement {
-  box-shadow: 0px 0px 1px rgba(134, 133, 133, 0.422);
-}
-.hoverElement:hover {
-  transform: scale(1.02);
-  box-shadow: 0px 0px 20px rgba(134, 133, 133, 0.422);
-  transition: ease-in-out 300ms;
-  cursor: pointer;
-}
-
-.btn-green {
-  color: #fff;
-  background-color: #81c99c;
-  border-color: #6c757d;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
-}
-
+/*####################################################################*/
+/*############################ CSS ADD-ONS ###########################*/
+/*####################################################################*/
+/*####################################################################*/
+/*####################### TUNNING BOOSTRAP ###########################*/
+/*####################################################################*/
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -12550,6 +12498,75 @@ textarea.form-control-lg {
 /*##################################*/
 /*############ QUERIES #############*/
 /*##################################*/
+/*##################################*/
+/*######### BACKGROUND IMAGES ######*/
+/*##################################*/
+.section_one {
+  background-image: url("/Images/Image.png");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .section_one {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_one {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+}
+
+.bg-design {
+  background-color: #f5979c;
+}
+
+.bg-purple {
+  background-color: #615e7d;
+}
+
+.bg-clients {
+  background-image: URL("/Images/photografer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sign {
+  background-image: URL("/Images/moutain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-start {
+  background-image: URL("/Images/pelo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-purpleLight {
+  background-color: #bc8cbe;
+}
+
+.bg-green {
+  background-color: #81c99c;
+}
+
+.bg-footer {
+  background-color: #192331;
+}
+
+/*##################################*/
+/*######### GLOBAL SETTINGS ########*/
+/*##################################*/
 body {
   font-family: "Inter", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -12589,34 +12606,23 @@ h1, .h1 {
 /*##################################*/
 /*############# GRILLE #############*/
 /*##################################*/
+@media screen and (min-width: 1200px) {
+  .grille {
+    width: 100%;
+    padding-left: 8em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     width: 1230px;
   }
 }
-.section_one {
-  background-image: url("/Images/Image.png");
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* height: 950px; */
-}
-@media screen and (min-width: 768px) {
-  .section_one {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section_one {
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 10px;
-  }
-}
-
+/*##################################*/
+/*####### IPHONE PICTURE  ##########*/
+/*##################################*/
 .iphone {
   position: absolute;
   right: 10px;
@@ -12651,13 +12657,21 @@ h1, .h1 {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .grille {
-    width: 100%;
-    padding-left: 8em;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.hoverElement {
+  box-shadow: 0px 0px 1px rgba(134, 133, 133, 0.422);
+}
+.hoverElement:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 20px rgba(134, 133, 133, 0.422);
+  transition: ease-in-out 300ms;
+  cursor: pointer;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #81c99c;
+  border-color: #6c757d;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 /*# sourceMappingURL=style.css.map */
